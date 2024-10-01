@@ -1,36 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carousel-html-css-js</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="slide-container">
-        <div class="slide-content">
-            <div class="card-wrapper">
-                <div class="card">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-                        <div class="card-image">
-                            <img src="/images/leader1.jpeg" alt="">
-                        </div>
-                        <h2 class="name">John Marks</h2>
-                    </div>
-
-                    <div class="card-content">
-                        <p class="description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum inventore numquam reprehenderit quis placeat illo dolore in atque quos voluptates, vitae 
-                            at aliquid consequatur, minima praesentium debitis assumenda amet.aliquid consequatur, minima praesentium
-                        </p>
-                        <button class="button">View More</button>
-                    </div>
-                </div>
+      <div class="slide-content swiper">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="images/leader1.jpeg" alt="" />
+              </div>
+              <h2 class="name">John Marks</h2>
             </div>
+
+            <div class="card-content">
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                inventore numquam reprehenderit quis placeat illo dolore in
+                atque quos voluptates, vitae at aliquid consequatur, minima
+                praesentium debitis assumenda amet.aliquid consequatur, minima
+                praesentium
+              </p>
+              <button class="button">View More</button>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="images/leader2.jpeg" alt="" />
+              </div>
+              <h2 class="name">Albert A.</h2>
+            </div>
+
+            <div class="card-content">
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                inventore numquam reprehenderit quis placeat illo dolore in
+                atque quos voluptates, vitae at aliquid consequatur, minima
+                praesentium debitis assumenda amet.aliquid consequatur, minima
+                praesentium
+              </p>
+              <button class="button">View More</button>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="images/leader3.jpeg" alt="" />
+              </div>
+              <h2 class="name">Andrew Gitonga</h2>
+            </div>
+
+            <div class="card-content">
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                inventore numquam reprehenderit quis placeat illo dolore in
+                atque quos voluptates, vitae at aliquid consequatur, minima
+                praesentium debitis assumenda amet.aliquid consequatur, minima
+                praesentium
+              </p>
+              <button class="button">View More</button>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="images/leader4.jpeg" alt="" />
+              </div>
+              <h2 class="name">Joseph Simiyu</h2>
+            </div>
+
+            <div class="card-content">
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                inventore numquam reprehenderit quis placeat illo dolore in
+                atque quos voluptates, vitae at aliquid consequatur, minima
+                praesentium debitis assumenda amet.aliquid consequatur, minima
+                praesentium
+              </p>
+              <button class="button">View More</button>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="images/leaderW7.jpeg" alt="" />
+              </div>
+              <h2 class="name">Rahma Hussein</h2>
+            </div>
+
+            <div class="card-content">
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                inventore numquam reprehenderit quis placeat illo dolore in
+                atque quos voluptates, vitae at aliquid consequatur, minima
+                praesentium debitis assumenda amet.aliquid consequatur, minima
+                praesentium
+              </p>
+              <button class="button">View More</button>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img src="images/leaderw6.jpeg" alt="" />
+              </div>
+              <h2 class="name">Lucy Wambui</h2>
+            </div>
+
+            <div class="card-content">
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                inventore numquam reprehenderit quis placeat illo dolore in
+                atque quos voluptates, vitae at aliquid consequatur, minima
+                praesentium debitis assumenda amet.aliquid consequatur, minima
+                praesentium
+              </p>
+              <button class="button">View More</button>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

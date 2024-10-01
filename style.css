@@ -1,53 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
-}
-body{
-
-}
-.card{
-    border: 1px solid black;
-    width: 50rem;
-    text-align: center;
-    border-radius: .5rem;
-    padding: 2rem;
-    box-shadow: 1px 1px 1px 1px rgba(0.2, 0.2, 0.2, 0.2);
-}
-.card-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20rem;
+html {
+  font-size: 62.5%;
 }
 
-.image-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.card-image img{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    margin-top: 1rem;
-    background-position: center;
-    background-size: cover;
+body {
+  width: 100%;
+  background: #e0d9d9;
 }
 
-.description{
-    text-align: justify;
-    font-size: 1.7rem;
+.slide-container {
+  width: 100%;
+  margin-top: 18rem;
 }
-.button{
-    padding: .5rem 1rem;
-    font-size: 2rem;
-    background: #96f796;
-    border: none;
-    border-radius: .5rem;
-    margin-top: 1rem;
+
+.slide-content {
+  width: 60%;
+  margin: auto;
+}
+.card {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1px 1px 1px 1px rgba(0.2, 0.2, 0.2, 0.2);
+  background: antiquewhite;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.image-content h2 {
+  font-size: 2rem;
+}
+.card-image img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.description {
+  text-align: justify;
+  font-size: 1.7rem;
+}
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  background: #96f796;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+.button:hover {
+  background: transparent;
+}
+
+.swiper-button-prev {
+  padding-left: 20rem;
+}
+.swiper-button-next {
+  padding-right: 20rem;
+}
+
+.swiper-pagination {
+  margin-bottom: 15rem;
 }
